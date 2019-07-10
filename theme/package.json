@@ -1,0 +1,41 @@
+{
+  "name": "@mattdionis/gatsby-theme-scoreboard",
+  "author": "Matt Dionis <mattdionis@gmail.com>",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/matt-dionis/gatsby-theme-scoreboard.git"
+  },
+  "version": "1.0.0",
+  "license": "MIT",
+  "main": "index.js",
+  "scripts": {
+    "build": "gatsby build",
+    "clean": "gatsby clean",
+    "develop": "gatsby develop"
+  },
+  "peerDependencies": {
+    "gatsby": "^2.9.12-themes-plugins.6",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "devDependencies": {
+    "gatsby": "^2.9.12-themes-plugins.6",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6"
+  },
+  "dependencies": {
+    "@emotion/core": "^10.0.14",
+    "@emotion/styled": "^10.0.14",
+    "@mdx-js/react": "^1.0.23",
+    "gatsby": "^2.13.9",
+    "gatsby-plugin-theme-ui": "^0.2.6",
+    "gatsby-source-filesystem": "^2.1.2",
+    "gatsby-transformer-yaml": "^2.2.0",
+    "theme-ui": "^0.2.10"
+  },
+  "keywords": [
+    "gatsby",
+    "gatsby-theme",
+    "gatsby-plugin"
+  ]
+}
