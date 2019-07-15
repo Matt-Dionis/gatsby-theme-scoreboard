@@ -1,7 +1,7 @@
 module.exports = ({ contentPath = 'data', basePath = '/' }) => ({
   siteMetadata: {
     title: 'Gatsby Scoreboard Theme',
-    headline: 'Recent Scores',
+    headline: 'Recent MLB Scores',
     basePath
   },
   plugins: [
@@ -13,9 +13,9 @@ module.exports = ({ contentPath = 'data', basePath = '/' }) => ({
       }
     },
     {
-      resolve: 'gatsby-transformer-yaml',
+      resolve: `gatsby-transformer-json`,
       options: {
-        typeName: 'Event'
+        typeName: `Game`
       }
     }
   ]

@@ -4,7 +4,7 @@ module.exports = {
       resolve: '@mattdionis/gatsby-theme-scoreboard',
       options: {
         contentPath: 'data',
-        basePath: '/events'
+        basePath: '/games'
       }
     }
   ]

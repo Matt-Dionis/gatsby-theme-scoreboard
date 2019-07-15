@@ -1,0 +1,1333 @@
+[
+  {
+    "date": "2019-07-06T18:10:00Z",
+    "home": {
+      "name": "Minnesota Twins",
+      "abbreviation": "MIN",
+      "wins": 56,
+      "losses": 32,
+      "score": 7,
+      "innings": [
+        "0",
+        "3",
+        "0",
+        "2",
+        "0",
+        "0",
+        "0",
+        "2",
+        "x"
+      ]
+    },
+    "away": {
+      "name": "Texas Rangers",
+      "abbreviation": "TEX",
+      "wins": 47,
+      "losses": 42,
+      "score": 4,
+      "innings": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "3",
+        "0",
+        "0"
+      ]
+    },
+    "win": {
+      "name": "Michael Pineda",
+      "note": "(W, 6-4)",
+      "ip": "6.0",
+      "pitches": 96,
+      "strikeouts": 9,
+      "hits": 5,
+      "walks": 1,
+      "earnedRuns": 1
+    },
+    "loss": {
+      "name": "Jesse Chavez",
+      "note": "(L, 3-4)",
+      "ip": "5.0",
+      "pitches": 90,
+      "strikeouts": 3,
+      "hits": 5,
+      "walks": 2,
+      "earnedRuns": 4
+    },
+    "save": {
+      "name": "Taylor Rogers",
+      "note": "(S, 12)",
+      "ip": "2.1",
+      "pitches": 34,
+      "strikeouts": 5,
+      "hits": 0,
+      "walks": 0,
+      "earnedRuns": 0
+    },
+    "venue": "Target Field",
+    "homeruns": [
+      {
+        "name": "Elvis Andrus",
+        "count": 1,
+        "seasonTotals": {
+          "homeruns": 8,
+          "runs": 49,
+          "rbi": 45
+        }
+      },
+      {
+        "name": "Willie Calhoun",
+        "count": 1,
+        "seasonTotals": {
+          "homeruns": 5,
+          "runs": 14,
+          "rbi": 12
+        }
+      },
+      {
+        "name": "Marwin Gonzalez",
+        "count": 1,
+        "seasonTotals": {
+          "homeruns": 10,
+          "runs": 32,
+          "rbi": 29
+        }
+      }
+    ]
+  },
+  {
+    "date": "2019-07-06T19:07:00Z",
+    "home": {
+      "name": "Toronto Blue Jays",
+      "abbreviation": "TOR",
+      "wins": 33,
+      "losses": 57,
+      "score": 1,
+      "innings": [
+        "0",
+        "0",
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    "away": {
+      "name": "Baltimore Orioles",
+      "abbreviation": "BAL",
+      "wins": 27,
+      "losses": 61,
+      "score": 8,
+      "innings": [
+        "0",
+        "0",
+        "0",
+        "5",
+        "0",
+        "1",
+        "0",
+        "1",
+        "1"
+      ]
+    },
+    "win": {
+      "name": "Andrew Cashner",
+      "note": "(W, 9-3)",
+      "ip": "7.0",
+      "pitches": 88,
+      "strikeouts": 4,
+      "hits": 3,
+      "walks": 0,
+      "earnedRuns": 1
+    },
+    "loss": {
+      "name": "Clayton Richard",
+      "note": "(L, 1-5)",
+      "ip": "6.0",
+      "pitches": 93,
+      "strikeouts": 2,
+      "hits": 7,
+      "walks": 1,
+      "earnedRuns": 3
+    },
+    "save": {},
+    "venue": "Rogers Centre",
+    "homeruns": [
+      {
+        "name": "Renato Nunez",
+        "count": 1,
+        "seasonTotals": {
+          "homeruns": 20,
+          "runs": 43,
+          "rbi": 49
+        }
+      },
+      {
+        "name": "Stevie Wilkerson",
+        "count": 1,
+        "seasonTotals": {
+          "homeruns": 7,
+          "runs": 24,
+          "rbi": 21
+        }
+      }
+    ]
+  },
+  {
+    "date": "2019-07-06T20:05:00Z",
+    "home": {
+      "name": "Washington Nationals",
+      "abbreviation": "WSH",
+      "wins": 46,
+      "losses": 42,
+      "score": 6,
+      "innings": [
+        "1",
+        "3",
+        "0",
+        "0",
+        "0",
+        "0",
+        "2",
+        "0",
+        "x"
+      ]
+    },
+    "away": {
+      "name": "Kansas City Royals",
+      "abbreviation": "KC",
+      "wins": 30,
+      "losses": 60,
+      "score": 0,
+      "innings": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    "win": {
+      "name": "Max Scherzer",
+      "note": "(W, 9-5)",
+      "ip": "7.0",
+      "pitches": 103,
+      "strikeouts": 11,
+      "hits": 4,
+      "walks": 1,
+      "earnedRuns": 0
+    },
+    "loss": {
+      "name": "Glenn Sparkman",
+      "note": "(L, 2-5)",
+      "ip": "6.0",
+      "pitches": 98,
+      "strikeouts": 3,
+      "hits": 9,
+      "walks": 2,
+      "earnedRuns": 4
+    },
+    "save": {},
+    "venue": "Nationals Park",
+    "homeruns": [
+      {
+        "name": "Kurt Suzuki",
+        "count": 1,
+        "seasonTotals": {
+          "homeruns": 11,
+          "runs": 20,
+          "rbi": 38
+        }
+      }
+    ]
+  },
+  {
+    "date": "2019-07-06T20:05:00Z",
+    "home": {
+      "name": "Pittsburgh Pirates",
+      "abbreviation": "PIT",
+      "wins": 43,
+      "losses": 45,
+      "score": 12,
+      "innings": [
+        "4",
+        "0",
+        "0",
+        "1",
+        "0",
+        "2",
+        "0",
+        "5",
+        "x"
+      ]
+    },
+    "away": {
+      "name": "Milwaukee Brewers",
+      "abbreviation": "MIL",
+      "wins": 47,
+      "losses": 43,
+      "score": 2,
+      "innings": [
+        "1",
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    "win": {
+      "name": "Dario Agrazal",
+      "note": "(W, 2-0)",
+      "ip": "6.0",
+      "pitches": 91,
+      "strikeouts": 1,
+      "hits": 5,
+      "walks": 2,
+      "earnedRuns": 2
+    },
+    "loss": {
+      "name": "Adrian Houser",
+      "note": "(L, 2-3)",
+      "ip": "4.0",
+      "pitches": 87,
+      "strikeouts": 5,
+      "hits": 7,
+      "walks": 3,
+      "earnedRuns": 5
+    },
+    "save": {},
+    "venue": "PNC Park",
+    "homeruns": [
+      {
+        "name": "Mike Moustakas",
+        "count": 1,
+        "seasonTotals": {
+          "homeruns": 25,
+          "runs": 53,
+          "rbi": 53
+        }
+      },
+      {
+        "name": "Yasmani Grandal",
+        "count": 1,
+        "seasonTotals": {
+          "homeruns": 19,
+          "runs": 45,
+          "rbi": 48
+        }
+      },
+      {
+        "name": "Kevin Newman",
+        "count": 1,
+        "seasonTotals": {
+          "homeruns": 6,
+          "runs": 24,
+          "rbi": 32
+        }
+      },
+      {
+        "name": "Melky Cabrera",
+        "count": 1,
+        "seasonTotals": {
+          "homeruns": 6,
+          "runs": 30,
+          "rbi": 31
+        }
+      }
+    ]
+  },
+  {
+    "date": "2019-07-06T20:10:00Z",
+    "home": {
+      "name": "Cincinnati Reds",
+      "abbreviation": "CIN",
+      "wins": 41,
+      "losses": 45,
+      "score": 2,
+      "innings": [
+        "2",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    "away": {
+      "name": "Cleveland Indians",
+      "abbreviation": "CLE",
+      "wins": 49,
+      "losses": 38,
+      "score": 7,
+      "innings": [
+        "1",
+        "0",
+        "0",
+        "0",
+        "1",
+        "0",
+        "0",
+        "2",
+        "3"
+      ]
+    },
+    "win": {
+      "name": "Shane Bieber",
+      "note": "(W, 8-3)",
+      "ip": "8.0",
+      "pitches": 103,
+      "strikeouts": 8,
+      "hits": 4,
+      "walks": 0,
+      "earnedRuns": 2
+    },
+    "loss": {
+      "name": "Michael Lorenzen",
+      "note": "(L, 0-2)",
+      "ip": "2.0",
+      "pitches": 35,
+      "strikeouts": 3,
+      "hits": 2,
+      "walks": 0,
+      "earnedRuns": 2
+    },
+    "save": {},
+    "venue": "Great American Ball Park",
+    "homeruns": [
+      {
+        "name": "Francisco Lindor",
+        "count": 2,
+        "seasonTotals": {
+          "homeruns": 14,
+          "runs": 45,
+          "rbi": 32
+        }
+      },
+      {
+        "name": "Yasiel Puig",
+        "count": 1,
+        "seasonTotals": {
+          "homeruns": 20,
+          "runs": 40,
+          "rbi": 51
+        }
+      },
+      {
+        "name": "Roberto Perez",
+        "count": 1,
+        "seasonTotals": {
+          "homeruns": 16,
+          "runs": 28,
+          "rbi": 36
+        }
+      }
+    ]
+  },
+  {
+    "date": "2019-07-06T20:10:00Z",
+    "home": {
+      "name": "Tampa Bay Rays",
+      "abbreviation": "TB",
+      "wins": 51,
+      "losses": 39,
+      "score": 4,
+      "innings": [
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "2",
+        "0",
+        "1"
+      ]
+    },
+    "away": {
+      "name": "New York Yankees",
+      "abbreviation": "NYY",
+      "wins": 57,
+      "losses": 30,
+      "score": 3,
+      "innings": [
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "0",
+        "1"
+      ]
+    },
+    "win": {
+      "name": "Colin Poche",
+      "note": "(W, 2-1)(BS, 1)",
+      "ip": "0.1",
+      "pitches": 10,
+      "strikeouts": 1,
+      "hits": 1,
+      "walks": 0,
+      "earnedRuns": 1
+    },
+    "loss": {
+      "name": "Chad Green",
+      "note": "(L, 2-3)",
+      "ip": "0.2",
+      "pitches": 6,
+      "strikeouts": 1,
+      "hits": 1,
+      "walks": 0,
+      "earnedRuns": 1
+    },
+    "save": {},
+    "venue": "Tropicana Field",
+    "homeruns": [
+      {
+        "name": "Brett Gardner",
+        "count": 1,
+        "seasonTotals": {
+          "homeruns": 14,
+          "runs": 53,
+          "rbi": 40
+        }
+      },
+      {
+        "name": "Nate Lowe",
+        "count": 1,
+        "seasonTotals": {
+          "homeruns": 2,
+          "runs": 9,
+          "rbi": 4
+        }
+      },
+      {
+        "name": "Aaron Hicks",
+        "count": 1,
+        "seasonTotals": {
+          "homeruns": 8,
+          "runs": 26,
+          "rbi": 28
+        }
+      },
+      {
+        "name": "Travis d'Arnaud",
+        "count": 1,
+        "seasonTotals": {
+          "homeruns": 6,
+          "runs": 20,
+          "rbi": 22
+        }
+      }
+    ]
+  },
+  {
+    "date": "2019-07-06T20:10:00Z",
+    "home": {
+      "name": "Atlanta Braves",
+      "abbreviation": "ATL",
+      "wins": 53,
+      "losses": 37,
+      "score": 4,
+      "innings": [
+        "2",
+        "1",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    "away": {
+      "name": "Miami Marlins",
+      "abbreviation": "MIA",
+      "wins": 33,
+      "losses": 54,
+      "score": 5,
+      "innings": [
+        "0",
+        "1",
+        "1",
+        "0",
+        "3",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    "win": {
+      "name": "Caleb Smith",
+      "note": "(W, 4-4)",
+      "ip": "6.0",
+      "pitches": 95,
+      "strikeouts": 6,
+      "hits": 5,
+      "walks": 1,
+      "earnedRuns": 3
+    },
+    "loss": {
+      "name": "Max Fried",
+      "note": "(L, 9-4)",
+      "ip": "5.0",
+      "pitches": 96,
+      "strikeouts": 7,
+      "hits": 11,
+      "walks": 1,
+      "earnedRuns": 5
+    },
+    "save": {
+      "name": "Sergio Romo",
+      "note": "(S, 16)",
+      "ip": "1.0",
+      "pitches": 20,
+      "strikeouts": 1,
+      "hits": 1,
+      "walks": 0,
+      "earnedRuns": 0
+    },
+    "venue": "SunTrust Park",
+    "homeruns": [
+      {
+        "name": "Ronald Acuna Jr.",
+        "count": 1,
+        "seasonTotals": {
+          "homeruns": 21,
+          "runs": 67,
+          "rbi": 53
+        }
+      },
+      {
+        "name": "Harold Ramirez",
+        "count": 1,
+        "seasonTotals": {
+          "homeruns": 3,
+          "runs": 25,
+          "rbi": 20
+        }
+      },
+      {
+        "name": "Austin Riley",
+        "count": 1,
+        "seasonTotals": {
+          "homeruns": 16,
+          "runs": 34,
+          "rbi": 41
+        }
+      },
+      {
+        "name": "Starlin Castro",
+        "count": 1,
+        "seasonTotals": {
+          "homeruns": 6,
+          "runs": 24,
+          "rbi": 34
+        }
+      }
+    ]
+  },
+  {
+    "date": "2019-07-06T20:10:00Z",
+    "home": {
+      "name": "Detroit Tigers",
+      "abbreviation": "DET",
+      "wins": 28,
+      "losses": 56,
+      "score": 6,
+      "innings": [
+        "0",
+        "0",
+        "0",
+        "2",
+        "0",
+        "4",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    "away": {
+      "name": "Boston Red Sox",
+      "abbreviation": "BOS",
+      "wins": 48,
+      "losses": 41,
+      "score": 10,
+      "innings": [
+        "2",
+        "3",
+        "0",
+        "2",
+        "0",
+        "0",
+        "1",
+        "1",
+        "1"
+      ]
+    },
+    "win": {
+      "name": "Rick Porcello",
+      "note": "(W, 6-7)",
+      "ip": "5.2",
+      "pitches": 106,
+      "strikeouts": 5,
+      "hits": 9,
+      "walks": 1,
+      "earnedRuns": 6
+    },
+    "loss": {
+      "name": "Jordan Zimmermann",
+      "note": "(L, 0-6)",
+      "ip": "3.1",
+      "pitches": 78,
+      "strikeouts": 2,
+      "hits": 13,
+      "walks": 0,
+      "earnedRuns": 7
+    },
+    "save": {},
+    "venue": "Comerica Park",
+    "homeruns": [
+      {
+        "name": "Jeimer Candelario",
+        "count": 2,
+        "seasonTotals": {
+          "homeruns": 6,
+          "runs": 23,
+          "rbi": 16
+        }
+      }
+    ]
+  },
+  {
+    "date": "2019-07-06T23:15:00Z",
+    "home": {
+      "name": "Houston Astros",
+      "abbreviation": "HOU",
+      "wins": 56,
+      "losses": 33,
+      "score": 4,
+      "innings": [
+        "0",
+        "0",
+        "0",
+        "1",
+        "1",
+        "1",
+        "1",
+        "0",
+        "x"
+      ]
+    },
+    "away": {
+      "name": "Los Angeles Angels",
+      "abbreviation": "LAA",
+      "wins": 45,
+      "losses": 45,
+      "score": 0,
+      "innings": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    "win": {
+      "name": "Gerrit Cole",
+      "note": "(W, 9-5)",
+      "ip": "7.0",
+      "pitches": 110,
+      "strikeouts": 9,
+      "hits": 3,
+      "walks": 2,
+      "earnedRuns": 0
+    },
+    "loss": {
+      "name": "Andrew Heaney",
+      "note": "(L, 1-3)",
+      "ip": "5.0",
+      "pitches": 85,
+      "strikeouts": 5,
+      "hits": 5,
+      "walks": 2,
+      "earnedRuns": 2
+    },
+    "save": {},
+    "venue": "Minute Maid Park",
+    "homeruns": [
+      {
+        "name": "Yuli Gurriel",
+        "count": 1,
+        "seasonTotals": {
+          "homeruns": 13,
+          "runs": 45,
+          "rbi": 46
+        }
+      }
+    ]
+  },
+  {
+    "date": "2019-07-06T23:15:00Z",
+    "home": {
+      "name": "New York Mets",
+      "abbreviation": "NYM",
+      "wins": 40,
+      "losses": 49,
+      "score": 6,
+      "innings": [
+        "1",
+        "1",
+        "1",
+        "0",
+        "3",
+        "0",
+        "0",
+        "0",
+        "x"
+      ]
+    },
+    "away": {
+      "name": "Philadelphia Phillies",
+      "abbreviation": "PHI",
+      "wins": 46,
+      "losses": 43,
+      "score": 5,
+      "innings": [
+        "0",
+        "3",
+        "1",
+        "0",
+        "0",
+        "0",
+        "1",
+        "0",
+        "0"
+      ]
+    },
+    "win": {
+      "name": "Noah Syndergaard",
+      "note": "(W, 6-4)",
+      "ip": "5.0",
+      "pitches": 87,
+      "strikeouts": 3,
+      "hits": 7,
+      "walks": 3,
+      "earnedRuns": 4
+    },
+    "loss": {
+      "name": "Jake Arrieta",
+      "note": "(L, 8-7)",
+      "ip": "4.1",
+      "pitches": 75,
+      "strikeouts": 4,
+      "hits": 11,
+      "walks": 0,
+      "earnedRuns": 5
+    },
+    "save": {
+      "name": "Edwin Diaz",
+      "note": "(S, 19)",
+      "ip": "1.0",
+      "pitches": 15,
+      "strikeouts": 1,
+      "hits": 1,
+      "walks": 0,
+      "earnedRuns": 0
+    },
+    "venue": "Citi Field",
+    "homeruns": [
+      {
+        "name": "Jay Bruce",
+        "count": 1,
+        "seasonTotals": {
+          "homeruns": 22,
+          "runs": 39,
+          "rbi": 53
+        }
+      },
+      {
+        "name": "Maikel Franco",
+        "count": 1,
+        "seasonTotals": {
+          "homeruns": 13,
+          "runs": 35,
+          "rbi": 41
+        }
+      }
+    ]
+  },
+  {
+    "date": "2019-07-06T23:15:00Z",
+    "home": {
+      "name": "Chicago White Sox",
+      "abbreviation": "CWS",
+      "wins": 41,
+      "losses": 44,
+      "score": 3,
+      "innings": [
+        "0",
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "2",
+        "0",
+        "0"
+      ]
+    },
+    "away": {
+      "name": "Chicago Cubs",
+      "abbreviation": "CHC",
+      "wins": 47,
+      "losses": 42,
+      "score": 6,
+      "innings": [
+        "1",
+        "0",
+        "0",
+        "0",
+        "5",
+        "0",
+        "0",
+        "0",
+        "0"
+      ]
+    },
+    "win": {
+      "name": "Jon Lester",
+      "note": "(W, 8-6)",
+      "ip": "6.1",
+      "pitches": 107,
+      "strikeouts": 3,
+      "hits": 6,
+      "walks": 3,
+      "earnedRuns": 1
+    },
+    "loss": {
+      "name": "Lucas Giolito",
+      "note": "(L, 11-3)",
+      "ip": "4.0",
+      "pitches": 87,
+      "strikeouts": 5,
+      "hits": 4,
+      "walks": 5,
+      "earnedRuns": 6
+    },
+    "save": {
+      "name": "Craig Kimbrel",
+      "note": "(S, 2)",
+      "ip": "1.0",
+      "pitches": 19,
+      "strikeouts": 3,
+      "hits": 0,
+      "walks": 1,
+      "earnedRuns": 0
+    },
+    "venue": "Guaranteed Rate Field",
+    "homeruns": []
+  },
+  {
+    "date": "2019-07-07T02:05:00Z",
+    "home": {
+      "name": "San Francisco Giants",
+      "abbreviation": "SF",
+      "wins": 40,
+      "losses": 48,
+      "score": 8,
+      "innings": [
+        "1",
+        "0",
+        "0",
+        "4",
+        "0",
+        "0",
+        "3",
+        "0",
+        "x"
+      ]
+    },
+    "away": {
+      "name": "St. Louis Cardinals",
+      "abbreviation": "STL",
+      "wins": 44,
+      "losses": 43,
+      "score": 4,
+      "innings": [
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "3",
+        "0"
+      ]
+    },
+    "win": {
+      "name": "Sam Dyson",
+      "note": "(W, 3-1)",
+      "ip": "2.0",
+      "pitches": 25,
+      "strikeouts": 2,
+      "hits": 1,
+      "walks": 0,
+      "earnedRuns": 0
+    },
+    "loss": {
+      "name": "Miles Mikolas",
+      "note": "(L, 5-9)",
+      "ip": "4.0",
+      "pitches": 72,
+      "strikeouts": 6,
+      "hits": 6,
+      "walks": 0,
+      "earnedRuns": 4
+    },
+    "save": {},
+    "venue": "Oracle Park",
+    "homeruns": [
+      {
+        "name": "Austin Slater",
+        "count": 1,
+        "seasonTotals": {
+          "homeruns": 2,
+          "runs": 2,
+          "rbi": 9
+        }
+      },
+      {
+        "name": "Pablo Sandoval",
+        "count": 1,
+        "seasonTotals": {
+          "homeruns": 11,
+          "runs": 29,
+          "rbi": 33
+        }
+      },
+      {
+        "name": "Paul Goldschmidt",
+        "count": 1,
+        "seasonTotals": {
+          "homeruns": 16,
+          "runs": 49,
+          "rbi": 37
+        }
+      }
+    ]
+  },
+  {
+    "date": "2019-07-07T02:10:00Z",
+    "home": {
+      "name": "Arizona Diamondbacks",
+      "abbreviation": "ARI",
+      "wins": 45,
+      "losses": 45,
+      "score": 4,
+      "innings": [
+        "0",
+        "0",
+        "0",
+        "1",
+        "0",
+        "3",
+        "0",
+        "0",
+        "x"
+      ]
+    },
+    "away": {
+      "name": "Colorado Rockies",
+      "abbreviation": "COL",
+      "wins": 44,
+      "losses": 44,
+      "score": 2,
+      "innings": [
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "0"
+      ]
+    },
+    "win": {
+      "name": "Robbie Ray",
+      "note": "(W, 6-6)",
+      "ip": "6.0",
+      "pitches": 93,
+      "strikeouts": 8,
+      "hits": 2,
+      "walks": 6,
+      "earnedRuns": 1
+    },
+    "loss": {
+      "name": "Jon Gray",
+      "note": "(L, 9-6)",
+      "ip": "5.0",
+      "pitches": 97,
+      "strikeouts": 4,
+      "hits": 8,
+      "walks": 3,
+      "earnedRuns": 3
+    },
+    "save": {
+      "name": "Greg Holland",
+      "note": "(S, 13)",
+      "ip": "1.0",
+      "pitches": 20,
+      "strikeouts": 1,
+      "hits": 2,
+      "walks": 0,
+      "earnedRuns": 0
+    },
+    "venue": "Chase Field",
+    "homeruns": [
+      {
+        "name": "Daniel Murphy",
+        "count": 1,
+        "seasonTotals": {
+          "homeruns": 7,
+          "runs": 26,
+          "rbi": 44
+        }
+      },
+      {
+        "name": "Jake Lamb",
+        "count": 1,
+        "seasonTotals": {
+          "homeruns": 1,
+          "runs": 5,
+          "rbi": 5
+        }
+      },
+      {
+        "name": "Trevor Story",
+        "count": 1,
+        "seasonTotals": {
+          "homeruns": 18,
+          "runs": 67,
+          "rbi": 49
+        }
+      }
+    ]
+  },
+  {
+    "date": "2019-07-07T02:10:00Z",
+    "home": {
+      "name": "Seattle Mariners",
+      "abbreviation": "SEA",
+      "wins": 39,
+      "losses": 54,
+      "score": 6,
+      "innings": [
+        "0",
+        "0",
+        "0",
+        "4",
+        "2",
+        "0",
+        "0",
+        "0",
+        "x"
+      ]
+    },
+    "away": {
+      "name": "Oakland Athletics",
+      "abbreviation": "OAK",
+      "wins": 49,
+      "losses": 41,
+      "score": 3,
+      "innings": [
+        "1",
+        "0",
+        "1",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1"
+      ]
+    },
+    "win": {
+      "name": "Marco Gonzales",
+      "note": "(W, 10-7)",
+      "ip": "8.0",
+      "pitches": 104,
+      "strikeouts": 6,
+      "hits": 5,
+      "walks": 1,
+      "earnedRuns": 2
+    },
+    "loss": {
+      "name": "Chris Bassitt",
+      "note": "(L, 5-4)",
+      "ip": "4.1",
+      "pitches": 78,
+      "strikeouts": 3,
+      "hits": 7,
+      "walks": 0,
+      "earnedRuns": 6
+    },
+    "save": {},
+    "venue": "T-Mobile Park",
+    "homeruns": [
+      {
+        "name": "Matt Olson",
+        "count": 1,
+        "seasonTotals": {
+          "homeruns": 18,
+          "runs": 32,
+          "rbi": 35
+        }
+      },
+      {
+        "name": "Daniel Vogelbach",
+        "count": 1,
+        "seasonTotals": {
+          "homeruns": 21,
+          "runs": 49,
+          "rbi": 51
+        }
+      },
+      {
+        "name": "Kyle Seager",
+        "count": 1,
+        "seasonTotals": {
+          "homeruns": 6,
+          "runs": 17,
+          "rbi": 18
+        }
+      },
+      {
+        "name": "Ramon Laureano",
+        "count": 1,
+        "seasonTotals": {
+          "homeruns": 15,
+          "runs": 50,
+          "rbi": 46
+        }
+      }
+    ]
+  },
+  {
+    "date": "2019-07-07T02:10:00Z",
+    "home": {
+      "name": "Los Angeles Dodgers",
+      "abbreviation": "LAD",
+      "wins": 60,
+      "losses": 31,
+      "score": 1,
+      "innings": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "0"
+      ]
+    },
+    "away": {
+      "name": "San Diego Padres",
+      "abbreviation": "SD",
+      "wins": 44,
+      "losses": 45,
+      "score": 3,
+      "innings": [
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "0",
+        "1",
+        "2",
+        "0"
+      ]
+    },
+    "win": {
+      "name": "Trey Wingenter",
+      "note": "(W, 1-1)",
+      "ip": "1.1",
+      "pitches": 16,
+      "strikeouts": 0,
+      "hits": 0,
+      "walks": 0,
+      "earnedRuns": 0
+    },
+    "loss": {
+      "name": "Kenta Maeda",
+      "note": "(L, 7-5)",
+      "ip": "7.2",
+      "pitches": 101,
+      "strikeouts": 6,
+      "hits": 4,
+      "walks": 1,
+      "earnedRuns": 3
+    },
+    "save": {
+      "name": "Kirby Yates",
+      "note": "(S, 29)",
+      "ip": "1.0",
+      "pitches": 14,
+      "strikeouts": 1,
+      "hits": 1,
+      "walks": 0,
+      "earnedRuns": 0
+    },
+    "venue": "Dodger Stadium",
+    "homeruns": [
+      {
+        "name": "Hunter Renfroe",
+        "count": 1,
+        "seasonTotals": {
+          "homeruns": 27,
+          "runs": 40,
+          "rbi": 49
+        }
+      },
+      {
+        "name": "Manuel Margot",
+        "count": 1,
+        "seasonTotals": {
+          "homeruns": 4,
+          "runs": 27,
+          "rbi": 17
+        }
+      }
+    ]
+  }
+]

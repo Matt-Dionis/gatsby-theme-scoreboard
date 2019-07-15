@@ -30,7 +30,7 @@
     "gatsby": "^2.13.9",
     "gatsby-plugin-theme-ui": "^0.2.6",
     "gatsby-source-filesystem": "^2.1.2",
-    "gatsby-transformer-yaml": "^2.2.0",
+    "gatsby-transformer-json": "^2.2.2",
     "theme-ui": "^0.2.10"
   },
   "keywords": [
