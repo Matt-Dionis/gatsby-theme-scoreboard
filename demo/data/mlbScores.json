@@ -6,6 +6,7 @@
       "abbreviation": "MIN",
       "wins": 56,
       "losses": 32,
+      "isWinner": true,
       "score": 7,
       "innings": [
         "0",
@@ -24,6 +25,7 @@
       "abbreviation": "TEX",
       "wins": 47,
       "losses": 42,
+      "isWinner": false,
       "score": 4,
       "innings": [
         "0",
@@ -105,6 +107,7 @@
       "abbreviation": "TOR",
       "wins": 33,
       "losses": 57,
+      "isWinner": false,
       "score": 1,
       "innings": [
         "0",
@@ -123,6 +126,7 @@
       "abbreviation": "BAL",
       "wins": 27,
       "losses": 61,
+      "isWinner": true,
       "score": 8,
       "innings": [
         "0",
@@ -186,6 +190,7 @@
       "abbreviation": "WSH",
       "wins": 46,
       "losses": 42,
+      "isWinner": true,
       "score": 6,
       "innings": [
         "1",
@@ -204,6 +209,7 @@
       "abbreviation": "KC",
       "wins": 30,
       "losses": 60,
+      "isWinner": false,
       "score": 0,
       "innings": [
         "0",
@@ -258,6 +264,7 @@
       "abbreviation": "PIT",
       "wins": 43,
       "losses": 45,
+      "isWinner": true,
       "score": 12,
       "innings": [
         "4",
@@ -276,6 +283,7 @@
       "abbreviation": "MIL",
       "wins": 47,
       "losses": 43,
+      "isWinner": false,
       "score": 2,
       "innings": [
         "1",
@@ -357,6 +365,7 @@
       "abbreviation": "CIN",
       "wins": 41,
       "losses": 45,
+      "isWinner": false,
       "score": 2,
       "innings": [
         "2",
@@ -375,6 +384,7 @@
       "abbreviation": "CLE",
       "wins": 49,
       "losses": 38,
+      "isWinner": true,
       "score": 7,
       "innings": [
         "1",
@@ -447,6 +457,7 @@
       "abbreviation": "TB",
       "wins": 51,
       "losses": 39,
+      "isWinner": true,
       "score": 4,
       "innings": [
         "0",
@@ -465,6 +476,7 @@
       "abbreviation": "NYY",
       "wins": 57,
       "losses": 30,
+      "isWinner": false,
       "score": 3,
       "innings": [
         "0",
@@ -546,6 +558,7 @@
       "abbreviation": "ATL",
       "wins": 53,
       "losses": 37,
+      "isWinner": false,
       "score": 4,
       "innings": [
         "2",
@@ -564,6 +577,7 @@
       "abbreviation": "MIA",
       "wins": 33,
       "losses": 54,
+      "isWinner": true,
       "score": 5,
       "innings": [
         "0",
@@ -654,6 +668,7 @@
       "abbreviation": "DET",
       "wins": 28,
       "losses": 56,
+      "isWinner": false,
       "score": 6,
       "innings": [
         "0",
@@ -672,6 +687,7 @@
       "abbreviation": "BOS",
       "wins": 48,
       "losses": 41,
+      "isWinner": true,
       "score": 10,
       "innings": [
         "2",
@@ -726,6 +742,7 @@
       "abbreviation": "HOU",
       "wins": 56,
       "losses": 33,
+      "isWinner": true,
       "score": 4,
       "innings": [
         "0",
@@ -744,6 +761,7 @@
       "abbreviation": "LAA",
       "wins": 45,
       "losses": 45,
+      "isWinner": false,
       "score": 0,
       "innings": [
         "0",
@@ -798,6 +816,7 @@
       "abbreviation": "NYM",
       "wins": 40,
       "losses": 49,
+      "isWinner": true,
       "score": 6,
       "innings": [
         "1",
@@ -816,6 +835,7 @@
       "abbreviation": "PHI",
       "wins": 46,
       "losses": 43,
+      "isWinner": false,
       "score": 5,
       "innings": [
         "0",
@@ -888,6 +908,7 @@
       "abbreviation": "CWS",
       "wins": 41,
       "losses": 44,
+      "isWinner": false,
       "score": 3,
       "innings": [
         "0",
@@ -906,6 +927,7 @@
       "abbreviation": "CHC",
       "wins": 47,
       "losses": 42,
+      "isWinner": true,
       "score": 6,
       "innings": [
         "1",
@@ -959,6 +981,7 @@
       "abbreviation": "SF",
       "wins": 40,
       "losses": 48,
+      "isWinner": true,
       "score": 8,
       "innings": [
         "1",
@@ -977,6 +1000,7 @@
       "abbreviation": "STL",
       "wins": 44,
       "losses": 43,
+      "isWinner": false,
       "score": 4,
       "innings": [
         "1",
@@ -1049,6 +1073,7 @@
       "abbreviation": "ARI",
       "wins": 45,
       "losses": 45,
+      "isWinner": true,
       "score": 4,
       "innings": [
         "0",
@@ -1067,6 +1092,7 @@
       "abbreviation": "COL",
       "wins": 44,
       "losses": 44,
+      "isWinner": false,
       "score": 2,
       "innings": [
         "0",
@@ -1148,6 +1174,7 @@
       "abbreviation": "SEA",
       "wins": 39,
       "losses": 54,
+      "isWinner": true,
       "score": 6,
       "innings": [
         "0",
@@ -1166,6 +1193,7 @@
       "abbreviation": "OAK",
       "wins": 49,
       "losses": 41,
+      "isWinner": false,
       "score": 3,
       "innings": [
         "1",
@@ -1247,6 +1275,7 @@
       "abbreviation": "LAD",
       "wins": 60,
       "losses": 31,
+      "isWinner": false,
       "score": 1,
       "innings": [
         "0",
@@ -1265,6 +1294,7 @@
       "abbreviation": "SD",
       "wins": 44,
       "losses": 45,
+      "isWinner": true,
       "score": 3,
       "innings": [
         "0",

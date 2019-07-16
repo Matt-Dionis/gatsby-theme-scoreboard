@@ -1,7 +1,7 @@
-const fs = require('fs');
+const fs = require("fs");
 
 exports.onPreBootstrap = ({ reporter }, options) => {
-  const contentPath = options.contentPath || 'data';
+  const contentPath = options.contentPath || "data";
 
   if (!fs.existsSync(contentPath)) {
     reporter.info(`creating the ${contentPath} directory`);
@@ -46,6 +46,7 @@ exports.sourceNodes = ({ actions }) => {
       abbreviation: String!
       wins: Int!
       losses: Int!
+      isWinner: Boolean!
       score: Int!
       innings: [String]!
     }
@@ -53,11 +54,12 @@ exports.sourceNodes = ({ actions }) => {
 };
 
 exports.createResolvers = ({ createResolvers }, options) => {
-  const basePath = options.basePath || '/';
+  const basePath = options.basePath || "/";
 
   const slugify = (home, away, date) => {
     const formattedDate = new Date(date);
-    const dateString = `${formattedDate.getFullYear()}-${formattedDate.getMonth() + 1}-${formattedDate.getDate()}`;
+    const dateString = `${formattedDate.getFullYear()}-${formattedDate.getMonth() +
+      1}-${formattedDate.getDate()}`;
     const slug = `${away.toLowerCase()}-vs-${home.toLowerCase()}-${dateString}`;
 
     return `${basePath}/${slug}`;
@@ -66,17 +68,22 @@ exports.createResolvers = ({ createResolvers }, options) => {
   createResolvers({
     Game: {
       slug: {
-        resolve: source => slugify(source.home.abbreviation, source.away.abbreviation, source.date)
+        resolve: source =>
+          slugify(
+            source.home.abbreviation,
+            source.away.abbreviation,
+            source.date
+          )
       }
     }
   });
 };
 
 exports.createPages = async ({ actions, graphql, reporter }, options) => {
-  const basePath = options.basePath || '/';
+  const basePath = options.basePath || "/";
   actions.createPage({
     path: basePath,
-    component: require.resolve('./src/templates/games.js')
+    component: require.resolve("./src/templates/games.js")
   });
 
   const result = await graphql(`
@@ -91,7 +98,7 @@ exports.createPages = async ({ actions, graphql, reporter }, options) => {
   `);
 
   if (result.errors) {
-    reporter.panic('error loading games', result.errors);
+    reporter.panic("error loading games", result.errors);
     return;
   }
 
@@ -102,7 +109,7 @@ exports.createPages = async ({ actions, graphql, reporter }, options) => {
 
     actions.createPage({
       path: slug,
-      component: require.resolve('./src/templates/game.js'),
+      component: require.resolve("./src/templates/game.js"),
       context: {
         gameID: game.id
       }

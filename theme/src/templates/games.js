@@ -13,11 +13,15 @@ const GamesTemplate = () => {
           venue
           slug
           home {
+            name
             abbreviation
+            isWinner
             score
           }
           away {
+            name
             abbreviation
+            isWinner
             score
           }
           win {
@@ -34,14 +38,23 @@ const GamesTemplate = () => {
           }
         }
       }
+      allImageSharp {
+        nodes {
+          id
+          fixed(height: 64, width: 64) {
+            ...GatsbyImageSharpFixed
+          }
+        }
+      }
     }
   `);
 
   const games = data.allGame.nodes;
+  const logos = data.allImageSharp.nodes;
 
   return (
     <Layout>
-      <GameList games={games} />
+      <GameList games={games} logos={logos} />
     </Layout>
   );
 };

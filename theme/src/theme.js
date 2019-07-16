@@ -11,7 +11,7 @@ export const theme = {
   colors: {
     gray: ["#efefef", "#ddd", "#333", "#111"],
     background: "#fff",
-    primary: "rebeccapurple"
+    primary: "royalblue"
   },
   sizes: {
     default: "90vw",
@@ -52,15 +52,12 @@ export const theme = {
       margin: "1rem 0 0"
     },
     ul: {
-      borderTop: "1px solid",
-      borderColor: "gray.0",
       listStyle: "none",
       padding: 0
     },
     li: {
-      borderBottom: "1px solid",
-      borderColor: "gray.1",
-      padding: 2,
+      display: "block",
+      padding: "0px 2px",
       "&:focus-within,&:hover": {
         backgroundColor: "gray.0"
       }
