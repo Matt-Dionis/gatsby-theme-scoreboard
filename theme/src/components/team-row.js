@@ -10,13 +10,11 @@ const winnerStyle = {
   fontWeight: "bold"
 };
 
-const TeamRow = ({ team }) => {
-  return (
-    <>
-      <TeamBlock team={team} />
-      <p style={team.isWinner ? winnerStyle : pStyle}>{team.score}</p>
-    </>
-  );
-};
+const TeamRow = React.memo(({ team }) => (
+  <>
+    <TeamBlock team={team} />
+    <p style={team.isWinner ? winnerStyle : pStyle}>{team.score}</p>
+  </>
+));
 
 export default TeamRow;

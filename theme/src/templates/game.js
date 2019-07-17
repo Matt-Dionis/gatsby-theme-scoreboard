@@ -48,12 +48,12 @@ export const query = graphql`
   }
 `;
 
-const GameTemplate = ({ data: { game } }) => (
+const GameTemplate = React.memo(({ data: { game } }) => (
   <GameContext.Provider value={game}>
     <Layout>
       <Game />
     </Layout>
   </GameContext.Provider>
-);
+));
 
 export default GameTemplate;

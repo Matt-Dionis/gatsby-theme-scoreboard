@@ -8,12 +8,10 @@ const scoreRowStyle = {
   alignItems: "center"
 };
 
-const ScoreRow = ({ team }) => {
-  return (
-    <Styled.li style={scoreRowStyle}>
-      <TeamRow team={team} />
-    </Styled.li>
-  );
-};
+const ScoreRow = React.memo(({ team }) => (
+  <Styled.li style={scoreRowStyle}>
+    <TeamRow team={team} />
+  </Styled.li>
+));
 
 export default ScoreRow;

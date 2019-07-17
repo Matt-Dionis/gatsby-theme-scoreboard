@@ -8,15 +8,13 @@ const gameRowStyle = {
   cursor: "pointer"
 };
 
-const GameRow = ({ game }) => {
-  return (
-    <Styled.li style={gameRowStyle}>
-      <Styled.ul>
-        <ScoreRow team={game.away} />
-        <ScoreRow team={game.home} />
-      </Styled.ul>
-    </Styled.li>
-  );
-};
+const GameRow = React.memo(({ game }) => (
+  <Styled.li style={gameRowStyle}>
+    <Styled.ul>
+      <ScoreRow team={game.away} />
+      <ScoreRow team={game.home} />
+    </Styled.ul>
+  </Styled.li>
+));
 
 export default GameRow;
