@@ -49,7 +49,7 @@ export const query = graphql`
 `;
 
 const GameTemplate = React.memo(({ data: { game } }) => (
-  <GameContext.Provider value={game}>
+  <GameContext.Provider value={{ ...game }}>
     <Layout>
       <Game />
     </Layout>
