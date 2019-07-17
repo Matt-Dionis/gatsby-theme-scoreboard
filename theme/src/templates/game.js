@@ -1,4 +1,5 @@
 import Game from "../components/game";
+import GameContext from "../GameContext";
 import Layout from "../components/layout";
 import React from "react";
 import { graphql } from "gatsby";
@@ -48,9 +49,11 @@ export const query = graphql`
 `;
 
 const GameTemplate = ({ data: { game } }) => (
-  <Layout>
-    <Game {...game} />
-  </Layout>
+  <GameContext.Provider value={game}>
+    <Layout>
+      <Game />
+    </Layout>
+  </GameContext.Provider>
 );
 
 export default GameTemplate;
