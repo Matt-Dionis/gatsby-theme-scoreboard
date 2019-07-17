@@ -1,1 +1,7 @@
-Very early work in progress...
+Work in progress...
+
+`yarn`
+
+`yarn workspace demo develop`
+
+Visit http://localhost:8000/games
