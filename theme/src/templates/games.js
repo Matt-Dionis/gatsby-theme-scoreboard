@@ -1,4 +1,5 @@
 import GameList from "../components/game-list";
+import GamesContext from "../GamesContext";
 import Layout from "../components/layout";
 import React from "react";
 import { graphql, useStaticQuery } from "gatsby";
@@ -49,13 +50,17 @@ const GamesTemplate = () => {
     }
   `);
 
-  const games = data.allGame.nodes;
-  const logos = data.allImageSharp.nodes;
-
   return (
-    <Layout>
-      <GameList games={games} logos={logos} />
-    </Layout>
+    <GamesContext.Provider
+      value={{
+        games: data.allGame.nodes,
+        logos: data.allImageSharp.nodes
+      }}
+    >
+      <Layout>
+        <GameList />
+      </Layout>
+    </GamesContext.Provider>
   );
 };
 

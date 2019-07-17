@@ -10,10 +10,10 @@ const winnerStyle = {
   fontWeight: "bold"
 };
 
-const TeamRow = ({ team, logos }) => {
+const TeamRow = ({ team }) => {
   return (
     <>
-      <TeamBlock team={team} logos={logos} />
+      <TeamBlock team={team} />
       <p style={team.isWinner ? winnerStyle : pStyle}>{team.score}</p>
     </>
   );

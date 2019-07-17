@@ -1,3 +1,4 @@
+import GamesContext from "../GamesContext";
 import Img from "gatsby-image";
 import React from "react";
 
@@ -17,15 +18,21 @@ const winnerStyle = {
 const fetchLogoForTeam = (team, logos) =>
   logos.find(logo => logo.fixed.src.includes(`${team}.png`)).fixed;
 
-const TeamBlock = ({ team, logos }) => {
+const TeamBlock = ({ team }) => {
   return (
-    <div style={teamStyle}>
-      <Img
-        alt={`${team.name} logo`}
-        fixed={fetchLogoForTeam(team.abbreviation, logos)}
-      />
-      <p style={team.isWinner ? winnerStyle : pStyle}>{team.abbreviation}</p>
-    </div>
+    <GamesContext.Consumer>
+      {({ logos }) => (
+        <div style={teamStyle}>
+          <Img
+            alt={`${team.name} logo`}
+            fixed={fetchLogoForTeam(team.abbreviation, logos)}
+          />
+          <p style={team.isWinner ? winnerStyle : pStyle}>
+            {team.abbreviation}
+          </p>
+        </div>
+      )}
+    </GamesContext.Consumer>
   );
 };
 

@@ -8,10 +8,10 @@ const scoreRowStyle = {
   alignItems: "center"
 };
 
-const ScoreRow = ({ team, logos }) => {
+const ScoreRow = ({ team }) => {
   return (
     <Styled.li style={scoreRowStyle}>
-      <TeamRow team={team} logos={logos} />
+      <TeamRow team={team} />
     </Styled.li>
   );
 };
