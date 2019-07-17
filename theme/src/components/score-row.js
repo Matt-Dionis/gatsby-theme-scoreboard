@@ -1,6 +1,10 @@
 import React from "react";
-import TeamRow from "./team-row";
+import TeamBlock from "./team-block";
 import { Styled } from "theme-ui";
+
+const pStyle = {
+  color: "black"
+};
 
 const scoreRowStyle = {
   display: "flex",
@@ -8,9 +12,15 @@ const scoreRowStyle = {
   alignItems: "center"
 };
 
+const winnerStyle = {
+  color: "black",
+  fontWeight: "bold"
+};
+
 const ScoreRow = React.memo(({ team }) => (
   <Styled.li style={scoreRowStyle}>
-    <TeamRow team={team} />
+    <TeamBlock team={team} />
+    <p style={team.isWinner ? winnerStyle : pStyle}>{team.score}</p>
   </Styled.li>
 ));
 
